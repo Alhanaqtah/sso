@@ -15,7 +15,9 @@ import (
 	"google.golang.org/grpc/status"
 )
 
-const emptyValue = 0
+const (
+	emptyValue = 0
+)
 
 type Auth interface {
 	Login(
